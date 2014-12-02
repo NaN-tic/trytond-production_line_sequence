@@ -1,0 +1,27 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:production.bom.input,sequence:"
+msgid "Sequence"
+msgstr "Seqüència"
+
+msgctxt "field:production.bom.output,sequence:"
+msgid "Sequence"
+msgstr "Seqüència"
+
+msgctxt "field:stock.move,sequence:"
+msgid "Sequence"
+msgstr "Seqüència"
+
+msgctxt "view:production.bom.input:"
+msgid "BOM Inputs"
+msgstr "Entrades de la llista de materials"
+
+msgctxt "view:production.bom.output:"
+msgid "BOM Outputs"
+msgstr "Sortides de la llista de materials"
+
+msgctxt "view:stock.move:"
+msgid "Moves"
+msgstr "Moviments"
