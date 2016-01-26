@@ -12,7 +12,7 @@ class Production:
 
     def _explode_move_values(self, from_location, to_location, company,
             bom_io, quantity):
-        values = super(Production, self)._explode_move_values(from_location,
+        move = super(Production, self)._explode_move_values(from_location,
             to_location, company, bom_io, quantity)
-        values['sequence'] = bom_io.sequence
-        return values
+        move.sequence = bom_io.sequence if bom_io else 1
+        return move
