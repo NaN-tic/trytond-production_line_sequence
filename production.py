@@ -4,10 +4,10 @@
 from trytond.pool import PoolMeta
 
 __all__ = ['Production']
-__metaclass__ = PoolMeta
 
 
 class Production:
+    __metaclass__ = PoolMeta
     __name__ = "production"
 
     def _explode_move_values(self, from_location, to_location, company,

@@ -5,10 +5,9 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 __all__ = ['BOMInput', 'BOMOutput']
 
-__metaclass__ = PoolMeta
-
 
 class BOMInput:
+    __metaclass__ = PoolMeta
     __name__ = 'production.bom.input'
     sequence = fields.Integer('Sequence')
 
@@ -19,6 +18,7 @@ class BOMInput:
 
 
 class BOMOutput:
+    __metaclass__ = PoolMeta
     __name__ = 'production.bom.output'
     sequence = fields.Integer('Sequence')
 
